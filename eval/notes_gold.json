@@ -1,0 +1,23 @@
+{
+ "_about": "Hand labels for context_notes.csv, written by reading each note, independent of the LLM. 'increase' = the note says freight costs went up on these routes. 'end' is only scored for increase notes (null = open-ended).",
+ "N001": {"routes": ["Chennai-Bangalore"], "start": "2025-02-24", "end": "2025-03-08", "increase": true,
+          "why": "flooding Feb 24 - Mar 8, higher trip costs; passable again Mar 9"},
+ "N002": {"routes": ["Ahmedabad-Mumbai"], "start": "2025-01-20", "end": "2025-01-26", "increase": true,
+          "why": "festival-week surcharge, one week"},
+ "N003": {"routes": "ALL", "start": "2025-05-05", "end": null, "increase": true,
+          "why": "diesel up 5-7% on all routes from this week, no end given"},
+ "N004": {"routes": [], "start": "2024-03-11", "increase": false,
+          "why": "trap: new toll, but affected routes are not in this dataset"},
+ "N005": {"routes": ["Mumbai-Delhi"], "start": "2024-07-29", "increase": false,
+          "why": "trap: maintenance delays, costs not significantly affected"},
+ "N006": {"routes": "ALL", "start": "2025-09-22", "increase": false,
+          "why": "trap: demand stable, no disruptions"},
+ "N007": {"routes": ["Delhi-Jaipur"], "start": "2024-05-20", "increase": false,
+          "why": "trap: road conditions improved"},
+ "N008": {"routes": ["Kolkata-Bhubaneswar"], "start": "2025-06-09", "increase": false,
+          "why": "trap: no disruptions, movement normal"},
+ "N009": {"routes": ["Chennai-Bangalore"], "start": "2025-03-17", "increase": false,
+          "why": "trap: route back to normal after flood repairs"},
+ "N010": {"routes": "ALL", "start": "2025-10-27", "increase": false,
+          "why": "trap: compliance cost absorbed without a rate change"}
+}

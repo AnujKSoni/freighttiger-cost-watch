@@ -1,0 +1,22 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "sampling": {
+  "temperature": 0,
+  "seed": 7,
+  "reasoning_effort": "low"
+ },
+ "llm_calls": 0,
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "of_which_reasoning_tokens": 0,
+ "rate_usd_per_million_tokens": {
+  "input": 0.15,
+  "output": 0.6
+ },
+ "cost_usd_at_published_rate": 0.0,
+ "notes_index": "cached",
+ "reasons_from_template": 20,
+ "shipments": 2940,
+ "route_weeks": 728,
+ "rows_out": 20
+}

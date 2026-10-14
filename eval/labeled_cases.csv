@@ -1,0 +1,16 @@
+route,week_of,expected_flagged,expected_note,why
+Delhi-Jaipur,2024-11-11,Yes,,+35% jump and no note mentions Delhi-Jaipur in Nov 2024 (sample row)
+Delhi-Jaipur,2024-11-18,Yes,,second week of the same unexplained spike
+Ahmedabad-Mumbai,2025-01-20,No (justified),N002,festival surcharge week (sample row)
+Chennai-Bangalore,2025-02-24,No (justified),N001,flood Feb 24 - Mar 8
+Chennai-Bangalore,2025-03-03,No (justified),N001,week overlaps the flood (Mar 3-8)
+Chennai-Bangalore,2025-03-10,Yes,,flood ended Mar 8 but cost stayed high
+Chennai-Bangalore,2025-03-17,Yes,,N009 says the route is back to normal - not a cost reason
+Mumbai-Delhi,2025-05-12,No (justified),N003,diesel rise from May 5; within 8 weeks; rise is vs own history only
+Mumbai-Pune,2025-09-15,Yes,,slow creep vs peers; N006 says no disruption (sample row)
+Mumbai-Pune,2025-10-27,Yes,,N010 says compliance cost was absorbed with no rate change
+Mumbai-Pune,2025-12-22,Yes,,creep continues to about +39% vs peers
+Mumbai-Delhi,2024-07-29,No,,N005 maintenance week; no cost rise so must not appear
+Kolkata-Bhubaneswar,2025-06-09,No,,N008 no disruption; no rise
+Delhi-Jaipur,2024-05-20,No,,N007 road improvement; no rise
+Delhi-Jaipur,2025-05-05,No,,diesel week; +7.5% is below the 10% own-history threshold

@@ -1,0 +1,175 @@
+{
+ "key": "5cb74a95e179b109bc3dc9d9a13f37de83739a702b29feb1b2d2e2000eda9b53",
+ "model": "openai/gpt-oss-120b",
+ "notes": [
+  {
+   "note_id": "N001",
+   "date": "2025-02-24",
+   "applies_to": "Chennai-Bangalore",
+   "text": "Heavy flooding on the Chennai-Bangalore highway disrupted normal truck movement from Feb 24 to Mar 8, forcing longer detours and higher trip costs. Roads were passable again by Mar 9.",
+   "routes": [
+    "Chennai-Bangalore"
+   ],
+   "start": "2025-02-24",
+   "end": "2025-03-08",
+   "cost_effect": "increase",
+   "magnitude_pct": null,
+   "evidence": "Heavy flooding on the Chennai-Bangalore highway disrupted normal truck movement from Feb 24 to Mar 8, forcing longer detours and higher trip costs.",
+   "problems": []
+  },
+  {
+   "note_id": "N002",
+   "date": "2025-01-20",
+   "applies_to": "Ahmedabad-Mumbai",
+   "text": "A regional festival week saw a temporary surcharge applied by transporters on the Ahmedabad-Mumbai corridor due to high demand and limited truck availability.",
+   "routes": [
+    "Ahmedabad-Mumbai"
+   ],
+   "start": "2025-01-20",
+   "end": "2025-01-26",
+   "cost_effect": "increase",
+   "magnitude_pct": null,
+   "evidence": "A regional festival week saw a temporary surcharge applied by transporters on the Ahmedabad-Mumbai corridor due to high demand and limited truck availability.",
+   "problems": []
+  },
+  {
+   "note_id": "N003",
+   "date": "2025-05-05",
+   "applies_to": "All Routes",
+   "text": "Diesel prices rose nationwide starting this week, pushing up transportation costs across all routes by roughly 5-7%.",
+   "routes": [
+    "Ahmedabad-Mumbai",
+    "Chennai-Bangalore",
+    "Delhi-Chennai",
+    "Delhi-Jaipur",
+    "Kolkata-Bhubaneswar",
+    "Mumbai-Delhi",
+    "Mumbai-Pune"
+   ],
+   "start": "2025-05-05",
+   "end": null,
+   "cost_effect": "increase",
+   "magnitude_pct": [
+    5,
+    7
+   ],
+   "evidence": "Diesel prices rose nationwide starting this week, pushing up transportation costs across all routes by roughly 5-7%.",
+   "problems": []
+  },
+  {
+   "note_id": "N004",
+   "date": "2024-03-11",
+   "applies_to": "All Routes",
+   "text": "A new toll plaza was commissioned on a national highway stretch, but the affected routes are not part of this dataset.",
+   "routes": [],
+   "start": "2024-03-11",
+   "end": null,
+   "cost_effect": "none",
+   "magnitude_pct": null,
+   "evidence": "A new toll plaza was commissioned on a national highway stretch, but the affected routes are not part of this dataset.",
+   "problems": []
+  },
+  {
+   "note_id": "N005",
+   "date": "2024-07-29",
+   "applies_to": "Mumbai-Delhi",
+   "text": "Scheduled highway maintenance work between Mumbai and Delhi caused minor delays for about a week; costs were not significantly affected.",
+   "routes": [
+    "Mumbai-Delhi"
+   ],
+   "start": "2024-07-29",
+   "end": null,
+   "cost_effect": "none",
+   "magnitude_pct": null,
+   "evidence": "Scheduled highway maintenance work between Mumbai and Delhi caused minor delays for about a week; costs were not significantly affected.",
+   "problems": []
+  },
+  {
+   "note_id": "N006",
+   "date": "2025-09-22",
+   "applies_to": "All Routes",
+   "text": "A logistics industry report noted overall demand for freight capacity remained stable this quarter with no major disruptions reported.",
+   "routes": [
+    "Ahmedabad-Mumbai",
+    "Chennai-Bangalore",
+    "Delhi-Chennai",
+    "Delhi-Jaipur",
+    "Kolkata-Bhubaneswar",
+    "Mumbai-Delhi",
+    "Mumbai-Pune"
+   ],
+   "start": "2025-09-22",
+   "end": null,
+   "cost_effect": "none",
+   "magnitude_pct": null,
+   "evidence": "A logistics industry report noted overall demand for freight capacity remained stable this quarter with no major disruptions reported.",
+   "problems": []
+  },
+  {
+   "note_id": "N007",
+   "date": "2024-05-20",
+   "applies_to": "Delhi-Jaipur",
+   "text": "Local authorities announced improved road conditions on the Delhi-Jaipur stretch after resurfacing work was completed.",
+   "routes": [
+    "Delhi-Jaipur"
+   ],
+   "start": "2024-05-20",
+   "end": null,
+   "cost_effect": "decrease",
+   "magnitude_pct": null,
+   "evidence": "Local authorities announced improved road conditions on the Delhi-Jaipur stretch after resurfacing work was completed.",
+   "problems": []
+  },
+  {
+   "note_id": "N008",
+   "date": "2025-06-09",
+   "applies_to": "Kolkata-Bhubaneswar",
+   "text": "No significant disruptions were reported on the Kolkata-Bhubaneswar corridor this quarter; freight movement remained normal.",
+   "routes": [
+    "Kolkata-Bhubaneswar"
+   ],
+   "start": "2025-06-09",
+   "end": null,
+   "cost_effect": "none",
+   "magnitude_pct": null,
+   "evidence": "No significant disruptions were reported on the Kolkata-Bhubaneswar corridor this quarter; freight movement remained normal.",
+   "problems": []
+  },
+  {
+   "note_id": "N009",
+   "date": "2025-03-17",
+   "applies_to": "Chennai-Bangalore",
+   "text": "Highway authorities confirmed the Chennai-Bangalore route returned to normal conditions after flood-related repairs were completed.",
+   "routes": [
+    "Chennai-Bangalore"
+   ],
+   "start": "2025-03-17",
+   "end": null,
+   "cost_effect": "none",
+   "magnitude_pct": null,
+   "evidence": "Highway authorities confirmed the Chennai-Bangalore route returned to normal conditions after flood-related repairs were completed.",
+   "problems": []
+  },
+  {
+   "note_id": "N010",
+   "date": "2025-10-27",
+   "applies_to": "All Routes",
+   "text": "A new vehicle tracking mandate was introduced for commercial fleets; compliance costs were absorbed by transporters without a rate change.",
+   "routes": [
+    "Ahmedabad-Mumbai",
+    "Chennai-Bangalore",
+    "Delhi-Chennai",
+    "Delhi-Jaipur",
+    "Kolkata-Bhubaneswar",
+    "Mumbai-Delhi",
+    "Mumbai-Pune"
+   ],
+   "start": "2025-10-27",
+   "end": null,
+   "cost_effect": "none",
+   "magnitude_pct": null,
+   "evidence": "A new vehicle tracking mandate was introduced for commercial fleets; compliance costs were absorbed by transporters without a rate change.",
+   "problems": []
+  }
+ ]
+}
